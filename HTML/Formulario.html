@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Clase 67 </title>
+</head>
+
+<body>
+    <div>
+        <form action="/" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre">
+            <br>
+            <label for="apellido">Apellido:</label>&nbsp;
+            <input type="text" id="apellido" name="apellido">
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="text" id="edad" name="edad">
+            <br>
+            <input type="email" id="email" name="email">
+            <label for="email">Email:</label>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <hr>
+            <label for="fecha1">fecha1:</label>
+            <input type="date" id="fecha1" name="fecha1">
+            <br>
+            <label for="fecha2">fecha2:</label>
+            <input type="datetime-local" id="fecha2" name="fecha2">
+            <br>
+            <label for="fecha3">fecha3:</label>
+            <input type="datetime" id="fecha3" name="fecha3">
+            <br>
+            <label for="mascu">Genero</label>
+            <input type="radio" id="mascu" name="Genero" value="masculino">
+            <br>
+            <label for="fem">Femenino</label>
+            <input type="radio" id="fem" name="Genero" value="femenino">
+            <br>
+            <label for="otro">Otro</label>
+            <input type="radio" id="otro" name="Genero" value="otro">
+            <br>
+            <label for="verano">Verano</label>
+            <input type="checkbox" name="verano" id="verano" value="verano">
+            <label for="otoño">Otoño</label>
+            <input type="checkbox" name="otoño" id="otoño" value="otoño">
+            <label for="invierno">Invierno</label>
+            <input type="checkbox" name="invierno" id="invierno" value="invierno">
+            <label for="primavera">Primavera</label>
+            <input type="checkbox" name="primavera" id="primavera" value="primavera">
+            <br>
+            <select name="lenguajes" id="lenguajes">
+                <option value="0">Seleccione lenguajes</option>
+                <option value="1">HTML</option>
+                <option value="2"> CSS</option>
+                <option value="3">JavaScript</option>
+                <option value="4">Ruby</option>
+            </select>
+            <br>
+            <br>
+            <textarea name="detalles" id="detalles" cols="30" rows="10"></textarea>
+            <br>
+            <label for="detalles">Ingese más información</label>
+            <br>
+            <input type="button" value="Enviar">
+            <input type="submit" name="Enviar" value="Enviar">
+        </form>
+    </div>
+</body>
+
+</html>

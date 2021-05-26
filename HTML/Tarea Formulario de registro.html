@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi registro</title>
+</head>
+
+<body>
+    <h1>Mi formulario de registro.</h1><br>
+
+    <form action="process.php" method="post">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="confirmar">Confirmar contraseña</label>
+        <input type="password" id="confirmar" name="confirmar"><br><br>
+
+        <label for="cumple">Cumpleaños:</label>
+        <input type="date" id="cumple" name="cumple"><br><br><br>
+
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="hombre" name="genero" value="hombre">
+
+        <label for="mujer">Mujer</label>
+        <input type="radio" id="mujer" name="genero" value="mujer">
+
+        <label for="otro">Otro</label>
+        <input type="radio" id="otro" name="genero" value="otro">
+
+        <p>Una breve descripción de ti:</p>
+        <textarea name="descripcion" rows="4" cols="50"></textarea><br>
+
+        <select name="lenguajes" id="lenguajes">
+            <option value="0">Lenguaje favorito</option>
+            <option value="1">HTML</option>
+            <option value="2"> CSS</option>
+            <option value="3">JavaScript</option>
+            <option value="4">Ruby</option>
+        </select>
+        <br><br>
+        <input type="submit" value="enviar">
+    </form>
+</body>
+
+</html>
