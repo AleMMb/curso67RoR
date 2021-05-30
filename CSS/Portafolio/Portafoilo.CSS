@@ -1,0 +1,241 @@
+    /* {
+        outline: 1px dotted red;
+    }*/
+    
+    .hugecontainer {
+        width: 825px;
+        margin: 0px auto;
+        background-color: #f7f7f7;
+    }
+    
+    h1 {
+        display: inline-block;
+        margin: 5px 260px 5px 20px;
+        font-family: cursive;
+    }
+    
+    h2 {
+        display: inline-block;
+        margin: 15px 0px 0px 0px;
+        padding-bottom: 10px;
+        vertical-align: top;
+        font-family: sans-serif;
+        font-size: 20px;
+        font: bold;
+    }
+    
+    .smallcontainer {
+        width: 785px;
+        background: radial-gradient(#6f5964, #1f0f13);
+        padding: 15px 20px 20px 20px;
+        vertical-align: top;
+    }
+    
+    img {
+        width: 340px;
+        height: 225px;
+        display: inline-block;
+        border: #c0c0c0 solid 4px;
+        vertical-align: top;
+        margin-right: 15px;
+    }
+    
+    .first_top {
+        width: 418px;
+        height: 233px;
+        display: inline-block;
+        background: linear-gradient(to right, #f6f5f6, #d9cad8);
+        font-family: sans-serif;
+    }
+    
+    .first_top h3 {
+        margin: 0px;
+        padding: 6px;
+        color: white;
+        background: linear-gradient(#b3b3b6, #878593, #b3b3b6);
+    }
+    
+    .first_paragraph {
+        margin: 8px 8px 0px 8px;
+        font-size: 14px;
+    }
+    
+    .second_paragraph {
+        margin: 10px 8px 10px 8px;
+        font-size: 14px;
+    }
+    
+    .first_top a {
+        margin-left: 8px;
+        font-size: 15px;
+        color: black
+    }
+    
+    .Box1 {
+        width: 247px;
+        /*height: 550px;*/
+        display: inline-block;
+        margin-top: 20px;
+        background: linear-gradient(to right, #f6f5f6, #d9cad8);
+        vertical-align: top;
+        font-family: sans-serif;
+    }
+    
+    .Box1 h3 {
+        margin: 0px;
+        padding: 6px;
+        color: white;
+        background: linear-gradient(#b3b3b6, #878593, #b3b3b6);
+    }
+    
+    #foto_la_mode {
+        width: 247px;
+        height: 150px;
+        margin: 0px;
+    }
+    
+    .Box1 p {
+        padding: 0px 8px 0px 8px;
+        margin-bottom: 63px;
+        text-align: justify;
+        font-size: 13px;
+    }
+    
+    .Box1 h4 {
+        margin: 0px;
+        padding: 10px;
+        color: white;
+        background: linear-gradient(#b3b3b6, #878593, #b3b3b6);
+    }
+    
+    .Box1 img {
+        width: 35px;
+        height: 35px;
+        display: inline-block;
+        border: 0px;
+        margin: 10px 0px 0px 10px;
+    }
+    
+    #button_La_Moda {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        display: block;
+        margin: 10px 80px 10px 80px;
+        text-align: center;
+        padding: 3px;
+        background-color: #407d61;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+    
+    .Box2 {
+        width: 247px;
+        /*height: 550px;*/
+        display: inline-block;
+        margin: 20px 16px 0px 16px;
+        background: linear-gradient(to right, #f6f5f6, #d9cad8);
+        vertical-align: top;
+        font-family: sans-serif;
+    }
+    
+    .Box2 h3 {
+        margin: 0px;
+        padding: 6px;
+        color: white;
+        background: linear-gradient(#b3b3b6, #878593, #b3b3b6);
+    }
+    
+    #foto_familycontacts {
+        width: 247px;
+        height: 150px;
+        margin: 0px;
+    }
+    
+    .Box2 p {
+        padding: 0px 8px 0px 8px;
+        margin-bottom: 34px;
+        text-align: justify;
+        font-size: 13px;
+    }
+    
+    .Box2 h4 {
+        margin: 0px;
+        padding: 10px;
+        color: white;
+        background: linear-gradient(#b3b3b6, #878593, #b3b3b6);
+    }
+    
+    .Box2 img {
+        width: 35px;
+        height: 35px;
+        display: inline-block;
+        border: 0px;
+        margin: 10px 0px 0px 10px;
+    }
+    
+    #p_Five_Eleven {
+        margin-bottom: 5px;
+    }
+    
+    #Foto_fiveEleven {
+        width: 247px;
+        height: 150px;
+        margin: 0px;
+    }
+    
+    #button_Family_Contacts {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        display: block;
+        margin: 10px 75px 10px 75px;
+        text-align: center;
+        padding: 3px;
+        background-color: #407d61;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+    
+    #button_FiveEleven {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        display: block;
+        margin: 10px 75px 10px 75px;
+        text-align: center;
+        padding: 3px;
+        background-color: #407d61;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+    
+    #correo {
+        margin-top: 5px;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    
+    .image_bottom {
+        width: 23PX;
+        height: 23PX;
+        border: 0px;
+        display: inline-block;
+        margin: 0px;
+    }
+    
+    #image_bottom {
+        width: 23PX;
+        height: 23PX;
+        border: 0px;
+        display: inline-block;
+        margin: 0px 0px 5px 235px
+    }
+    
+    .text_botttom {
+        display: inline-block;
+        margin: 0px;
+        color: black;
+        font-family: sans-serif;
+        font-style: oblique;
+    }
