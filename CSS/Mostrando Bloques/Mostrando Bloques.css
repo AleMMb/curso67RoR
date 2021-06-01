@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    display: inline-block;
+}
+
+#Container {
+    width: 800px;
+    /*height: 750px;*/
+    background-color: #d4d2ae;
+    padding: 20px;
+}
+
+.cabecera {
+    width: 130px;
+    height: 70px;
+    background-color: rgb(252, 250, 250);
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 45px;
+}
+
+#first_Image {
+    margin: 0px 0px 0px 85px;
+}
+
+.lightblue_background {
+    width: 130px;
+    height: 130px;
+    border: 3px black solid;
+    background-color: #82b4ee;
+    padding: 10px;
+}
+
+.pink_background {
+    width: 150px;
+    height: 150px;
+    background-color: #f36870;
+    border: 3px black solid;
+}
