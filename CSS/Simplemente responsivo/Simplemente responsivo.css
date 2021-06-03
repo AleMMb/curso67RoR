@@ -1,0 +1,51 @@
+* {
+    /*outline: 1px dotted darkred;*/
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto;
+}
+
+h1 {
+    background-color: #b3b3b3;
+    padding: 10px;
+    margin: 10px;
+    border: solid grey 1px;
+}
+
+.central_text {
+    background-color: #cccccc;
+    border: solid grey 1px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.last_element {
+    background-color: #ffff9a;
+    border: solid grey 1px;
+    padding: 10px;
+    margin: 10px;
+}
+
+span {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 480px) {
+    #desktop,
+    #tablet {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+    #desktop,
+    #phone {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #tablet,
+    #phone {
+        display: none;
+    }
+}
